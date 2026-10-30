@@ -2,7 +2,7 @@
 export const EMAIL = 'rahul.developer.web@gmail.com';
 
 /** Sent from Gordon's own domain (verified with Resend), so Outlook trusts it. */
-const FROM = 'gordontu.com <contact@gordontu.com>';
+const FROM = 'Rahul <contact@rahul-lilac-one.vercel.app>';
 
 /**
  * Reads the Contact page's form as the server gets it. A filled honeypot is a bot: `spam`, which the
@@ -38,7 +38,7 @@ export function toEmail({ email, subject, body }) {
 		from: FROM,
 		to: [EMAIL],
 		reply_to: email,
-		subject: subject || 'New message from gordontu.com',
-		text: `${body}\n\n—\nFrom ${email}, through gordontu.com/contact`
+		subject: subject || 'New message from rahul-lilac-one.vercel.app',
+		text: `${body}\n\n—\nFrom ${email}, through rahul-lilac-one.vercel.app/contact`
 	};
 }

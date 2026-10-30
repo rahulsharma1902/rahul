@@ -46,7 +46,7 @@
 </script>
 
 <svelte:head>
-	<title>Credits — Gordon Tu</title>
+	<title>Credits — Rahul</title>
 	<meta name="description" content="The credits: made by Gordon, with a small cast of very talented tools." />
 </svelte:head>
 

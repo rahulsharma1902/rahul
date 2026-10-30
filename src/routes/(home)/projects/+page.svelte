@@ -30,10 +30,10 @@
 </script>
 
 <svelte:head>
-	<title>Projects — Gordon Tu</title>
+	<title>Projects — Rahul</title>
 	<meta
 		name="description"
-		content="Selected projects by Gordon Tu: interactive maps, data visualization, and generative art."
+		content="Selected projects by Rahul: interactive maps, data visualization, and generative art."
 	/>
 </svelte:head>
 

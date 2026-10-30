@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>{page.status} — Gordon Tu</title>
+	<title>{page.status} — Rahul</title>
 </svelte:head>
 
 <!-- In the landing's column, so a wrong turn still looks like the site. -->

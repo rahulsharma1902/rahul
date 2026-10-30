@@ -39,7 +39,7 @@
 	import { EMAIL } from '$lib/contact.js';
 
 	/** Gordon's calendar, offered once the message is sent to anyone who would rather talk sooner. */
-	const CALL = 'https://cal.com/gordon-tu-jjhuo5/30min';
+	const CALL = 'https://wa.me/918894548063';
 
 	/** From the bio (VISA), the Projects' Clients (project.js), and Climate TRACE. */
 	const workedWith = ['VISA', 'Yale University', 'UC Berkeley', 'World Bank', 'Climate TRACE'];

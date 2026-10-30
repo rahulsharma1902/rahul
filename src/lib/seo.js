@@ -1,5 +1,5 @@
 /** Where the site lives: canonical URLs, structured data, the sitemap and llms.txt all start here. */
-export const SITE = 'https://gordontu.com';
+export const SITE = 'https://rahul-lilac-one.vercel.app';
 
 /**
  * Gordon as schema.org describes a person, for search engines and AI assistants. The home page carries

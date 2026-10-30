@@ -8,7 +8,7 @@
 
 	const project = $derived(data.project);
 	const label = $derived(categoryLabel(project.category));
-	const title = $derived(`${project.projectName} — Case study by Gordon Tu`);
+	const title = $derived(`${project.projectName} — Case study by Rahul`);
 	const image = $derived(new URL(project.projectImgSource, SITE).href);
 	/** Client · date · tools, as the postcard's back has them. */
 	const line = $derived([project.client ?? 'Personal', formatDate(project.date), project.tools.join(', ')].join(' · '));
@@ -30,7 +30,7 @@
 	<p class="text-eyebrow">{label}</p>
 	<h1 class="text-heading-32">{project.projectName}</h1>
 	<p class="line text-copy-14">{line}</p>
-	<img src={project.projectImgSource} alt="{project.projectName}, {label.toLowerCase()} by Gordon Tu" decoding="async" />
+	<img src={project.projectImgSource} alt="{project.projectName}, {label.toLowerCase()} by Rahul" decoding="async" />
 	{#if project.message}<p class="message text-copy-16">{project.message}</p>{/if}
 	<p class="soon text-copy-13">The case study is being written.</p>
 	<nav class="text-copy-14" aria-label="Project">

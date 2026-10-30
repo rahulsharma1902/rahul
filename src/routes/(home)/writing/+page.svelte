@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Writing — Gordon Tu</title>
-	<meta name="description" content="Writing on design and code by Gordon Tu." />
+	<title>Writing — Rahul</title>
+	<meta name="description" content="Writing on design and code by Rahul." />
 </svelte:head>
 
 <!-- ponytail: placeholder until the first post exists; then list the posts the way projects used to

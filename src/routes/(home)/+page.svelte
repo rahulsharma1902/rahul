@@ -14,7 +14,7 @@
 		property="og:description"
 		content="I design and build interactive maps, data visualization and generative art, with AI in my workflow."
 	/>
-	<meta property="og:image" content="https://gordontu.com/og.png" />
+	<meta property="og:image" content="https://rahul-lilac-one.vercel.app/og.png" />
 	{@html jsonLd(person)}
 </svelte:head>
 

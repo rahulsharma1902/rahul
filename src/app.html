@@ -38,12 +38,8 @@
     // Local dev and the headless checks run on localhost; keep them out of the stats.
     // Clicks, pageviews (SPA ones too) and web vitals are on by default; errors and heatmaps are asked for.
     if (!['localhost', '127.0.0.1'].includes(location.hostname))
-      posthog.init('phc_rCGhPFpCwFs2rPSFossL3msUodSWeSRZPzLDGuuniBzJ', {
-        api_host: 'https://us.i.posthog.com',
-        defaults: '2026-05-30',
-        capture_exceptions: true,
-        capture_heatmaps: true
-      });
+      // PostHog disabled
+    // posthog.init(...);
   </script>
   %sveltekit.head%
 </head>
