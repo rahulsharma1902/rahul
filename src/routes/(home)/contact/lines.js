@@ -10,36 +10,36 @@ const DAYS = '1–⁠2 days';
 export const lines = {
 	/** Hello, and the first question: the visitor's name. */
 	hello: [
-		'Hey! I’m Gordon. What should I call you?',
-		'Hi, I’m Gordon. What’s your name?',
-		'Hey there, I’m Gordon. Who am I talking to?',
-		'Hi! Gordon here. What should I call you?',
-		'Hello, I’m Gordon. What’s your name?',
-		'Hey, Gordon here. Who am I chatting with?',
-		'Hi there! I’m Gordon. And you are?',
-		'Hey! I’m Gordon. What’s your name?',
+		'Hey! I’m Rahul. What should I call you?',
+		'Hi, I’m Rahul. What’s your name?',
+		'Hey there, I’m Rahul. Who am I talking to?',
+		'Hi! Rahul here. What should I call you?',
+		'Hello, I’m Rahul. What’s your name?',
+		'Hey, Rahul here. Who am I chatting with?',
+		'Hi there! I’m Rahul. And you are?',
+		'Hey! I’m Rahul. What’s your name?',
 		'Hi, Gordon here. What should I call you?',
-		'Hello! I’m Gordon. Who am I talking to?',
-		'Hey, I’m Gordon. First things first: what’s your name?',
-		'Hi! I’m Gordon. Mind telling me your name?',
-		'Hey there! Gordon here. What’s your name?',
-		'Hi, I’m Gordon. What name should I use for you?',
-		'Hello there, I’m Gordon. What should I call you?',
+		'Hello! I’m Rahul. Who am I talking to?',
+		'Hey, I’m Rahul. First things first: what’s your name?',
+		'Hi! I’m Rahul. Mind telling me your name?',
+		'Hey there! Rahul here. What’s your name?',
+		'Hi, I’m Rahul. What name should I use for you?',
+		'Hello there, I’m Rahul. What should I call you?',
 		'Hey! Gordon here. Who am I talking to today?',
-		'Hi, I’m Gordon. Thanks for stopping by. What’s your name?',
+		'Hi, I’m Rahul. Thanks for stopping by. What’s your name?',
 		'Hey, thanks for dropping in. I’m Gordon. What’s your name?',
 		'Hi there, I’m Gordon. What do people call you?',
-		'Hello! Gordon here. What should I call you?',
-		'Hey! I’m Gordon. Let’s start with names. What’s yours?',
-		'Hi! I’m Gordon. And your name is?',
-		'Hey, I’m Gordon. Who’s on the other side of the screen?',
-		'Hi there! I’m Gordon. What name do you go by?',
-		'Hello, Gordon here. Mind sharing your name?',
+		'Hello! Rahul here. What should I call you?',
+		'Hey! I’m Rahul. Let’s start with names. What’s yours?',
+		'Hi! I’m Rahul. And your name is?',
+		'Hey, I’m Rahul. Who’s on the other side of the screen?',
+		'Hi there! I’m Rahul. What name do you go by?',
+		'Hello, Rahul here. Mind sharing your name?',
 		'Hey! I’m Gordon, glad you’re here. What’s your name?',
-		'Hi, I’m Gordon. Before anything else, what’s your name?',
-		'Hey there, I’m Gordon. What should I call you?',
-		'Hi! Gordon here. Who am I chatting with?',
-		'Hello! I’m Gordon. Can I get your name?'
+		'Hi, I’m Rahul. Before anything else, what’s your name?',
+		'Hey there, I’m Rahul. What should I call you?',
+		'Hi! Rahul here. Who am I chatting with?',
+		'Hello! I’m Rahul. Can I get your name?'
 	],
 
 	/** @type {((name: string) => string)[]} */
@@ -472,13 +472,13 @@ export const jokes = [
 		]
 	},
 	{
-		names: ['gordon'],
+		names: ['rahul'],
 		lines: [
-			'Hi Gordon! I’m Gordon too (Tu)!',
-			'Gordon? No way. I’m Gordon too. Gordon Tu. Gordon, too. …I’ll stop.',
-			'Another Gordon! Hi Gordon, I’m Gordon too (Tu). Get it? Nobody ever gets it.',
-			'Gordon, meet Gordon. Gordon Tu. I’ve waited my whole life to say that.',
-			'Wait, am I talking to myself? Hi Gordon, I’m Gordon, too. Tu. Gordon Tu.'
+			'Hi Rahul! I’m Rahul too (Tu)!',
+			'Rahul? No way. I’m Rahul too. …I’ll stop.',
+			'Another Rahul! Hi Rahul, I’m Rahul too (Tu). Get it? Nobody ever gets it.',
+			'Rahul, meet Rahul. I’ve waited my whole life to say that.',
+			'Wait, am I talking to myself? Hi Rahul, I’m Rahul, too.'
 		]
 	},
 	{

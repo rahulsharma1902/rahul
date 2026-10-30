@@ -4,12 +4,12 @@
 </script>
 
 <svelte:head>
-	<title>Gordon Tu — Design engineer: maps, data visualization, generative art</title>
+	<title>Rahul — Full-Stack Developer</title>
 	<meta
 		name="description"
-		content="I’m Gordon Tu, a design engineer and cartographer in the Bay Area. I design and build interactive maps, data visualization and generative art, with AI in my workflow."
+		content="I’m Rahul, a full-stack developer. I design and build interactive maps, data visualization and generative art, with AI in my workflow."
 	/>
-	<meta property="og:title" content="Gordon Tu — Design engineer: maps, data visualization, generative art" />
+	<meta property="og:title" content="Rahul — Full-Stack Developer" />
 	<meta
 		property="og:description"
 		content="I design and build interactive maps, data visualization and generative art, with AI in my workflow."

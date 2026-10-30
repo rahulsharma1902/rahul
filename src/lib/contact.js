@@ -1,5 +1,5 @@
 /** Where every message goes: the page shows it, and the server sends to it. */
-export const EMAIL = 'tugordon@outlook.com';
+export const EMAIL = 'rahul.developer.web@gmail.com';
 
 /** Sent from Gordon's own domain (verified with Resend), so Outlook trusts it. */
 const FROM = 'gordontu.com <contact@gordontu.com>';

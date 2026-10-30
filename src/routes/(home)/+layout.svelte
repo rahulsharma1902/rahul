@@ -3,8 +3,9 @@
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import GithubLogoIcon from 'phosphor-svelte/lib/GithubLogoIcon';
-	import LinkedinLogoIcon from 'phosphor-svelte/lib/LinkedinLogoIcon';
-	import XLogoIcon from 'phosphor-svelte/lib/XLogoIcon';
+	// import LinkedinLogoIcon from 'phosphor-svelte/lib/LinkedinLogoIcon';
+	import WhatsappLogoIcon from 'phosphor-svelte/lib/WhatsappLogoIcon';
+	import InstagramLogoIcon from 'phosphor-svelte/lib/InstagramLogoIcon';
 	import Avatar, { garden, lenses } from '$lib/landingPage/Avatar.svelte';
 	import CategoryLink from '$lib/landingPage/CategoryLink.svelte';
 	import { headlineFlow } from '$lib/landingPage/headlineFlow.js';
@@ -54,7 +55,7 @@
 	const words = (text, space = true) => text.split(' ').map((word, i) => ({ word, space: space || i > 0 }));
 	/** @type {Piece[]} */
 	const headline = [
-		...words('I’m Gordon.', false),
+		...words('I’m Rahul.', false),
 		{ avatar: true, space: true },
 		...words('I make your data easier to understand and use through'),
 		{ slug: 'maps', shape: 'map', space: true },
@@ -67,9 +68,10 @@
 	];
 
 	const socials = /** @type {const} */ ([
-		{ label: 'X', href: 'https://x.com/_tuyukun', Icon: XLogoIcon, weight: 'regular' },
-		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/gordon-tu/', Icon: LinkedinLogoIcon, weight: 'fill' },
-		{ label: 'GitHub', href: 'https://github.com/tututwo', Icon: GithubLogoIcon, weight: 'fill' }
+		{ label: 'Instagram', href: 'https://instagram.com/rahulsharma___', Icon: InstagramLogoIcon, weight: 'regular' },
+		// { label: 'LinkedIn', href: 'https://www.linkedin.com/in/gordon-tu/', Icon: LinkedinLogoIcon, weight: 'fill' },
+		{ label: 'WhatsApp', href: 'https://wa.me/918894548063', Icon: WhatsappLogoIcon, weight: 'regular' },
+		{ label: 'GitHub', href: 'https://github.com/rahulsharma1902', Icon: GithubLogoIcon, weight: 'fill' }
 	]);
 
 	// Each tab has its own URL; the home page opens on about.

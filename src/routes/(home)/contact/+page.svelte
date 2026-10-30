@@ -253,10 +253,10 @@
 </script>
 
 <svelte:head>
-	<title>Contact — Gordon Tu</title>
+	<title>Contact — Rahul</title>
 	<meta
 		name="description"
-		content="Get in touch with Gordon Tu about interactive maps, data visualization, and web tools."
+		content="Get in touch with Rahul about interactive maps, data visualization, and web tools."
 	/>
 </svelte:head>
 
@@ -284,7 +284,7 @@
 	</p>
 
 	<!-- The chat: its lines scroll on their own, and the page scrolls on around it as ever. -->
-	<section class="thread" aria-label="Chat with Gordon">
+	<section class="thread" aria-label="Chat with Rahul">
 		<!-- Focusable, so a keyboard can scroll it too. -->
 		<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
 		<div class={['chat', { live }]} role="log" tabindex="0" bind:this={log}>
@@ -292,7 +292,7 @@
 				{@render face()}
 				<div class="lines">
 					<p class="line" id="ask-name">
-						<span class="sr-only">Gordon:{' '}</span>{live ? chat.words.hello : lines.hello[0]}
+						<span class="sr-only">Rahul:{' '}</span>{live ? chat.words.hello : lines.hello[0]}
 					</p>
 					<p class="line no-script">JavaScript’s off, so this chat can’t run. Email me instead!</p>
 				</div>
@@ -303,7 +303,7 @@
 				<div class="gordon" {@attach arrive}>
 					{@render face()}
 					<div class="lines">
-						<p class="line"><span class="sr-only">Gordon:{' '}</span>{chat.words.meet(chat.name)}</p>
+						<p class="line"><span class="sr-only">Rahul:{' '}</span>{chat.words.meet(chat.name)}</p>
 						<p class="line" id="ask-body">{chat.words.about}</p>
 						<p class="line">{chat.words.extras}</p>
 					</div>
@@ -316,7 +316,7 @@
 					{@render face()}
 					<div class="lines">
 						<p class="line" id="ask-email">
-							<span class="sr-only">Gordon:{' '}</span>{chat.words.where}
+							<span class="sr-only">Rahul:{' '}</span>{chat.words.where}
 						</p>
 					</div>
 				</div>
@@ -328,7 +328,7 @@
 					{@render face()}
 					<div class="lines">
 						<p class="line" id="ask-note" tabindex="-1" {@attach want === 'review' ? focus : null}>
-							<span class="sr-only">Gordon:{' '}</span>{chat.words.review}
+							<span class="sr-only">Rahul:{' '}</span>{chat.words.review}
 						</p>
 						<div class="letter">
 							<dl>
@@ -355,7 +355,7 @@
 					<div class="gordon" {@attach arrive}>
 						{@render face()}
 						<div class="lines">
-							<p class="line"><span class="sr-only">Gordon:{' '}</span>{chat.words.added}</p>
+							<p class="line"><span class="sr-only">Rahul:{' '}</span>{chat.words.added}</p>
 						</div>
 					</div>
 				{/if}
@@ -364,14 +364,14 @@
 					<div class="gordon" {@attach arrive}>
 						{@render face()}
 						<div class="lines">
-							<p class="line"><span class="sr-only">Gordon:{' '}</span>{reason}</p>
+							<p class="line"><span class="sr-only">Rahul:{' '}</span>{reason}</p>
 						</div>
 					</div>
 				{:else if status === 'failed'}
 					<div class="gordon" {@attach arrive}>
 						{@render face()}
 						<div class="lines">
-							<p class="line"><span class="sr-only">Gordon:{' '}</span>{chat.words.oops}</p>
+							<p class="line"><span class="sr-only">Rahul:{' '}</span>{chat.words.oops}</p>
 							<p class="line">
 								{chat.words.retry(EMAIL)}
 								<button class="copy text-copy-14" type="button" onclick={() => copy(letter, 'letter')}>
@@ -402,7 +402,7 @@
 					{@render face()}
 					<div class="lines">
 						<p class="line" id="ask-sent" tabindex="-1" {@attach want === 'sent' ? focus : null}>
-							<span class="sr-only">Gordon:{' '}</span><span class="check" aria-hidden="true">✓</span>
+							<span class="sr-only">Rahul:{' '}</span><span class="check" aria-hidden="true">✓</span>
 							{chat.words.sent}
 						</p>
 						<p class="line">{chat.words.reply(chat.email)}</p>

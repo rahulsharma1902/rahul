@@ -8,9 +8,9 @@ export const SITE = 'https://gordontu.com';
 export const person = {
 	'@type': 'Person',
 	'@id': `${SITE}/#person`,
-	name: 'Gordon Tu',
+	name: 'Rahul',
 	url: SITE,
-	jobTitle: 'Design engineer',
+	jobTitle: 'Full-stack developer',
 	description:
 		'Design engineer and cartographer making interactive maps, data visualization and generative art, with AI in the workflow.',
 	address: { '@type': 'PostalAddress', addressRegion: 'CA', addressCountry: 'US' },
@@ -31,9 +31,9 @@ export const person = {
 	],
 	sameAs: [
 		'https://www.linkedin.com/in/gordon-tu/',
-		'https://github.com/tututwo',
+		'https://github.com/rahulsharma1902',
 		'https://observablehq.com/@tututwo',
-		'https://x.com/_tuyukun'
+		'https://instagram.com/rahulsharma___'
 	]
 };
 

@@ -290,8 +290,7 @@
 <svelte:document onvisibilitychange={() => document.hidden && conceal()} />
 
 <p>
-	I’m a design engineer based in the Bay Area. I’ve worked on design systems and AI workflows at VISA
-	and turned complex research into visualization tools for Yale and UC Berkeley.
+	I turn coffee-fueled ideas into pixels, products, and possibilities. Full-stack developer with 4+ years of experience, always open to building something exciting together.
 </p>
 
 <p class={['revision', { drawn: strokes.length }]} {@attach prepare}>

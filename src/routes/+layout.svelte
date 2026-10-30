@@ -22,7 +22,7 @@
 		<meta property="og:url" content={canonical} />
 	{/if}
 	<!-- Link previews (LinkedIn, X, iMessage, Slack); each page adds its own title, words and image. -->
-	<meta property="og:site_name" content="Gordon Tu" />
+	<meta property="og:site_name" content="Rahul" />
 	<meta property="og:type" content="website" />
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
