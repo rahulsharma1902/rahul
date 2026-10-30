@@ -65,6 +65,90 @@ export function formatDate(value) {
 /** @type {Omit<Project, 'seed' | 'slug'>[]} */
 const data = [
 	{
+		projectName: "Gapsy Studio",
+		message: "Full-service digital design and creative studio specializing in mobile and web development, branding, 3D experiences, and animation.",
+		projectLink: "https://gapsystudio.com/",
+		projectImgSource: "/projects-optimized/my-projects/gapsystudio.webp",
+		tools: ["Blender", "Next.js", "React", "Three.js", "TailwindCSS"],
+		category: "creative-code",
+		date: "2026-10-28",
+		featured: true,
+		pinned: 1,
+		plant: "ember-spire"
+	},
+	{
+		projectName: "Localio",
+		message: "A digital product review, comparison, and recommendation platform built for community discussions and detailed provider analysis.",
+		projectLink: "https://localio.com/en-us",
+		projectImgSource: "/projects-optimized/my-projects/localio.webp",
+		tools: ["Laravel","Livewire","MySQL","VPS Hostinger"],
+		category: "creative-code",
+		date: "2026-10-25",
+		featured: true,
+		pinned: 2,
+		plant: "thirty-aster"
+	},
+	{
+		projectName: "Leadfusionhq",
+		message: "Data-driven precision marketing and high-performance lead generation platform with automated workflows and CRM integrations.",
+		projectLink: "https://www.leadfusionhq.com/",
+		projectImgSource: "/projects-optimized/my-projects/leadfusionhq.webp",
+		tools: ["React","Next.js","MongoDB","n8n","Boberdoo","AWS"],
+		category: "data-visualization",
+		date: "2026-10-20",
+		featured: true,
+		pinned: 3,
+		plant: "notebook-peony"
+	},
+	{
+		projectName: "Skyfall AI",
+		message: "Autonomous business platform designed for agentic workflows and post-scarcity operations with modern Next.js architecture.",
+		projectLink: "https://skyfall.ai/",
+		projectImgSource: "/projects-optimized/my-projects/skyfall.webp",
+		tools: ["Next.js","React","TailwindCSS","TypeScript"],
+		category: "creative-code",
+		date: "2026-10-15",
+		featured: true,
+		pinned: 4,
+		plant: "planet-bloom"
+	},
+	{
+		projectName: "Delta North Tea",
+		message: "E-commerce platform for organic wellness tea blends, featuring a headless Shopify backend, customized subscription flows, and fast Next.js frontend.",
+		projectLink: "https://deltanorthtea.com/",
+		projectImgSource: "/projects-optimized/my-projects/deltanorthtea.webp",
+		tools: ["Next.js","Shopify","React","TailwindCSS"],
+		category: "creative-code",
+		date: "2026-10-10",
+		featured: true,
+		pinned: 5,
+		plant: "almanac-tulip"
+	},
+	{
+		projectName: "DEV.co",
+		message: "Custom enterprise software and agentic AI development agency website built with high-performance Next.js rendering.",
+		projectLink: "https://dev.co/",
+		projectImgSource: "/projects-optimized/my-projects/devco.webp",
+		tools: ["Next.js","React","TypeScript","Node.js"],
+		category: "creative-code",
+		date: "2026-09-30",
+		featured: true,
+		pinned: 6,
+		plant: "origami-bloom"
+	},
+	{
+		projectName: "Dropship Academy",
+		message: "E-learning and e-commerce training platform with course delivery, student tracking, and cloud scaling.",
+		projectLink: "https://www.dropshipacademy.nl/",
+		projectImgSource: "/projects-optimized/my-projects/dropshipacademy.webp",
+		tools: ["Node.js","React.js","AWS","Express"],
+		category: "data-visualization",
+		date: "2026-09-15",
+		featured: true,
+		pinned: 7,
+		plant: "moon-lotus"
+	},
+	{
 		projectName: "Yale 30-Day Map Challenge",
 		message: "The sign-up board for Yale's #30DayMapChallenge in November 2026: thirty prompts, each pinned to its own place on a hand-drawn 3D campus. Fly between them, take the tour, and join a day with a Yale email, solo or as a team.",
 		projectLink: "https://yale-30-day-map-challenge.vercel.app/signin",
@@ -74,7 +158,7 @@ const data = [
 		category: "maps",
 		date: "2026-10-14",
 		client: "Yale University",
-		featured: true,
+		featured: false,
 		plant: "thirty-aster",
 	},
 	{
@@ -86,7 +170,7 @@ const data = [
 		tools: ["Svelte", "Three.js", "GLSL", "D3"],
 		category: "maps",
 		date: "2026-10-08",
-		featured: true,
+		featured: false,
 		plant: "notebook-peony",
 	},
 	{
@@ -98,7 +182,7 @@ const data = [
 		tools: ["Three.js", "React.js", "GLSL", "GSAP"],
 		category: "maps",
 		date: "2026-09-28",
-		featured: true,
+		featured: false,
 		plant: "planet-bloom",
 	},
 	{
@@ -110,7 +194,7 @@ const data = [
 		tools: ["React.js", "GSAP", "MCP"],
 		category: "creative-code",
 		date: "2026-10-05",
-		featured: true,
+		featured: false,
 		plant: "almanac-tulip",
 	},
 	{
@@ -131,7 +215,7 @@ const data = [
 		tools: ["Three.js", "React.js", "GLSL"],
 		category: "creative-code",
 		date: "2026-09-28",
-		featured: true,
+		featured: false,
 		plant: "voronoi-bloom",
 	},
 	{
@@ -143,7 +227,7 @@ const data = [
 		tools: ["Three.js", "React.js", "GLSL", "Python"],
 		category: "maps",
 		date: "2026-09-27",
-		featured: true,
+		featured: false,
 		plant: "rain-bell",
 	},
 	{
@@ -155,7 +239,7 @@ const data = [
 		tools: ["Svelte", "Three.js", "GLSL", "GSAP"],
 		category: "maps",
 		date: "2026-09-26",
-		featured: true,
+		featured: false,
 		pinned: 3,
 		plant: "origami-bloom",
 	},
@@ -167,7 +251,7 @@ const data = [
 		tools: ["Python", "NumPy", "GeoPandas"],
 		category: "maps",
 		date: "2026-09-24",
-		featured: true,
+		featured: false,
 		plant: "palette-poppy",
 	},
 	{
@@ -179,7 +263,7 @@ const data = [
 		tools: ["Three.js", "React.js", "GLSL", "Blender"],
 		category: "maps",
 		date: "2026-09-25",
-		featured: true,
+		featured: false,
 		plant: "moon-lotus",
 	},
 	{
@@ -199,7 +283,7 @@ const data = [
 		category: "maps",
 		date: "2026-04-01",
 		client: "Yale University",
-		featured: true,
+		featured: false,
 		pinned: 2,
 		plant: "ember-spire",
 	},
@@ -221,7 +305,7 @@ const data = [
 		category: "data-visualization",
 		date: "2023-11-01",
 		client: "Terner Center for Housing Innovation, UC Berkeley",
-		featured: true,
+		featured: false,
 		plant: "house-lupine",
 	},
 	{
@@ -233,7 +317,7 @@ const data = [
 		tools: ["Three.js", "React.js", "GLSL", "D3"],
 		category: "data-visualization",
 		date: "2026-09-25",
-		featured: true,
+		featured: false,
 		pinned: 1,
 		plant: "margins-mophead",
 	},
